@@ -1,3 +1,4 @@
+/*
 package com.zk.security.service;
 
 import com.zk.security.model.User;
@@ -41,9 +42,12 @@ public class UserService implements UserDetailsService {
         }
     }
 
-    public User saveUser(User user) {
+  */
+/*  public User saveUser(User user) {
         log.info("Saving new user {} to the database", user.getUsername());
         user.setPassword(passwordEncoder.encode(user.getPassword()));
        return userRepository.save(user);
-    }
+    }*//*
+
 }
+*/
